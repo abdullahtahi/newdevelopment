@@ -1,0 +1,42 @@
+.icon-edit {
+  padding: 2px;
+  margin: 2px;
+  border: 1px solid #2eb85c;
+  border-radius: 8px;
+  background-color: white;
+  color: #2eb85c;
+}
+.icon-view {
+  padding: 2px;
+  margin: 2px;
+  border: 1px solid #1f1d61;
+  border-radius: 8px;
+  background-color: white;
+  color: #1f1d61;
+}
+.Pending {
+    border: 1px solid #f9b115 !important;
+    color: #f9b115 !important;
+    font-weight: bold !important;
+  }
+  .Rejected {
+    border: 1px solid #e55353 !important;
+    color: #e55353 !important;
+    font-weight: bold !important;
+  }
+  .Approved {
+    border: 1px solid #2EB85C !important;
+    color: #2EB85C !important;
+    font-weight: bold !important;
+  }
+  .statusActive { 
+    color: #2EB85C !important;
+    border: 1px solid #2EB85C !important;
+    font-weight: bold !important;
+  }
+  .statusInActive {
+    color: #e55353  !important;
+    font-weight: bold !important;
+    border: 1px solid #e55353 !important;
+  }
+  

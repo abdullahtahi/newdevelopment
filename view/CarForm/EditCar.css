@@ -1,0 +1,5 @@
+.span_cityname + .span_cityname::before {
+  white-space: pre;
+  display: inline-block;
+  content: ", ";
+}

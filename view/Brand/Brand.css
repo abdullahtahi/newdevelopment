@@ -1,0 +1,9 @@
+.brand {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.brandForm {
+  margin: -20px 20px
+}

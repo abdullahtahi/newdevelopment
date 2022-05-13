@@ -1,0 +1,32 @@
+.car {
+  display: flex;
+  width: 83vw;
+}
+.alert-container {
+  margin: 50;
+}
+.MuiAccordionDetails-root {
+  padding: 3px 18px 6px !important;
+}
+.cnicImage {
+  width: 800px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+.cnicImage img {
+  height: 100%;
+}
+.regImage {
+  width: 800px;
+  height: 500px;
+}
+.regImage img {
+  height: 100%;
+  width: 100%;
+}
+.span_feature + .span_feature::before {
+  white-space: pre;
+  display: inline-block;
+  content: ", ";
+}

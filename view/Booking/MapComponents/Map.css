@@ -1,0 +1,36 @@
+.main-wrapper {
+    height: 50vh;
+    margin: 10px 50px;
+    filter: drop-shadow(-1px 5px 3px #ccc);
+  }
+  .info-wrapper {
+    margin-top: 15px;
+  }
+  .map-details {
+    text-align: center;
+    font-size: 1.2em;
+  }
+  .map-details span {
+    font-weight: bold;
+  }
+  .search-input {
+    font-size: 1.2em;
+    width: 80%;
+  } 
+  .pac-container {
+    background-color: #FFF;
+    z-index: 2001 !important;
+    /* position: fixed; */
+    /* display: inline-block; */
+}
+.modal{
+    z-index: 2000;
+}
+.modal-backdrop{
+    z-index: 1000;
+}
+.confirm-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,99 @@
+.flex-space-around {
+  display: flex;
+  justify-content: space-around;
+}
+.addCar_head h2{
+  font-weight: 300;
+  font-size: 20px
+}
+input {
+  width: 90%;
+  margin-bottom: 0.5rem;
+}
+select {
+  width: 98%;
+  margin-bottom: 0.5rem;
+}
+
+.form__form-group label {
+  font-size: 0.8rem;
+}
+
+.form__form-group input,
+select {
+  padding: 10px 20px;
+  border: none;
+  border-bottom: 3px solid transparent;
+  background-color: #eee;
+  outline-width: 0;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.form__form-group input:focus,
+select:focus {
+  border-bottom: 3px solid #1f1d61;
+}
+
+.form__btn {
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.form__btn:hover {
+  opacity: 0.8;
+}
+
+.form__btn-primary {
+  background-color: #1f1d61;
+  color: #fff;
+}
+
+.form__error-message {
+  width: 100%;
+  display: inline-block;
+  padding: 5px;
+  background: red;
+  color: #fff;
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+.form__success-message {
+  width: 100%;
+  display: inline-block;
+  padding: 5px;
+  background: green;
+  color: #fff;
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+.form {
+  width: max-content;
+  padding: 1.5rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  background: #fff;
+  border-radius: 10px;
+}
+
+.form__title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.form__form-group_column {
+  width: 100%;
+}
+.form__form-group_right {
+  width: 45%;
+  float: right;
+}
+.form__form-group_left {
+  width: 45%;
+  float: left;
+}

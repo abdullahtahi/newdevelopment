@@ -1,0 +1,13 @@
+
+.feature {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.css-6j8wv5-Input{
+  font-weight: bold !important;
+}
+.react-select-container{
+  font-weight: bold !important;
+}
